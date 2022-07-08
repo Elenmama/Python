@@ -1,0 +1,14 @@
+income = int(input("enter income: "))
+costs = int(input("enter costs: "))
+if income >= costs:
+    profit = income-costs
+    profitability = (profit/income)*100
+    print("profit = ", profit, "\nprofitability = ", profitability, "%")
+    am_of_emp = int(input("enter amount of employees: "))
+    profit_per_person = profit/am_of_emp
+    print("profit per person: ", profit_per_person)
+
+
+else:
+    loss = costs-income
+    print("loss = ", loss)
