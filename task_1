@@ -1,5 +1,0 @@
-date = int(input("Enter your birthday number "))
-print("your luckiest day is ", date)
-
-month = str(input("Enter your favourite month "))
-print("your dreams come true in ", month)
