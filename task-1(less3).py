@@ -2,7 +2,7 @@ def dividing(a, b):
     if b == 0:
         return False
     else:
-        return a / b
+        return round (a / b, 3)
 s = 0
 while True:
     try:
