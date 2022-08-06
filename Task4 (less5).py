@@ -1,4 +1,4 @@
-rus_dict = {"one":"один", "two":"два", "three":"три", "four":"четыре"}
+rus_dict = {"One":"один", "Two":"два", "Three":"три", "Four":"четыре"}
 
 with open("file44.txt", "w", encoding='utf-8') as new_file:
     with open("file4.txt", encoding='utf-8') as my_file:
